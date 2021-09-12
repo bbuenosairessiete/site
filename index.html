@@ -257,17 +257,17 @@
         <div class="row">
             <div class="cell-md-4">
                 <div class="work-box">
-                    <a href="https://themes.org.ua/pandora"><img src="steps/Menu.jpg" alt="work pandora"></a>
+                    <a href="#"><img src="steps/Menu.jpg" alt="work pandora"></a>
                 </div>
             </div>
             <div class="cell-md-4">
                 <div class="work-box">
-                    <a href="https://themes.org.ua/mirohost"><img src="steps/pop.jpg" alt="work mirohost"></a>
+                    <a href="#"><img src="steps/pop.jpg" alt="work mirohost"></a>
                 </div>
             </div>
             <div class="cell-md-4">
                 <div class="work-box">
-                    <a href="https://metroui.org.ua/examples/tiles/start.html"><img src="steps/pai.jpg" alt="work start screen"></a>
+                    <a href="#"><img src="steps/pai.jpg" alt="work start screen"></a>
                 </div>
             </div>
         </div>
@@ -275,17 +275,17 @@
         <div class="row">
             <div class="cell-md-4">
                 <div class="work-box">
-                    <a href="https://themes.org.ua/aistant"><img src="steps/Menu.jpg" alt="work aistant"></a>
+                    <a href="#"><img src="steps/car.jpg" alt="work aistant"></a>
                 </div>
             </div>
             <div class="cell-md-4">
                 <div class="work-box">
-                    <a href="https://cryptoscamalert.com"><img src="steps/ot.jpg" alt="work cryptoscamalert"></a>
+                    <a href="#"><img src="steps/ot.jpg" alt="work cryptoscamalert"></a>
                 </div>
             </div>
             <div class="cell-md-4">
                 <div class="work-box">
-                    <a href="https://metroui.org.ua/examples/github/github.html"><img src="steps/otd.jpg" alt="work github"></a>
+                    <a href="#"><img src="steps/otd.jpg" alt="work github"></a>
                 </div>
             </div>
         </div>
@@ -293,52 +293,7 @@
     </div>
 </div>
     
-    <script>
-    $(function(){
-        Metro.utils.github("olton/Metro-UI-CSS", function(data){
-            Metro.getPlugin("#github-stars", "counter").startInViewport(data.stargazers_count);
-        });
-    });
-
-    var appBarBackground = false;
-
-    function appBarMenuOpen(menu){
-        if (!appBarBackground) $(menu).parents(".container-fluid").addClass("bg-white");
-    }
-
-    function appBarMenuClose(menu){
-        if (!appBarBackground) $(menu).parents(".container-fluid").removeClass("bg-white");
-    }
-
-    // $(window).on("scroll", function(){
-    //     var appBar = $(".app-bar");
-    //     var h = appBar.height();
-    //     if (scrollY > h && !appBarBackground) {
-    //         appBar.parent().addClass("bg-white");
-    //         appBarBackground = true;
-    //     } else if (appBarBackground && scrollY <= h) {
-    //         appBarBackground = false;
-    //         appBar.parent().removeClass("bg-white");
-    //     }
-    // });
-
-    $(window).on("adblock-alert", function(){
-        setTimeout(function(){
-            Metro.createToast(
-                "<span class='text-leader'>At the moment, advertising is almost the only source of financing for the project. Please disable ad blocker and support Metro 4!</span>" +
-                "<br>"+
-                "<br>"+
-                "By the way, this block is shown by the built-in Metro 4 function! ",
-                null, null, "alert",
-                {
-                    showTop: true,
-                    distance: 60,
-                    timeout: 10000
-                }
-            );
-        }, 2000);
-    });
-</script>
+ 
 
 <div class="container-fluid bg-white fg-dark bg-white">
     <div class="container pt-10 pb-10">
