@@ -1,11 +1,7 @@
 <?xml version="1.0"?>
 <content type="regex">  
-   <listEntry> 
-      <entry>*.txt</entry> 
-      <description>txt file extension</description> 
-   </listEntry> 
-   <listEntry> 
-      <entry>*.xml</entry> 
-      <description>xml file extension</description> 
+    <listEntry> 
+      <entry>*google*</entry> 
+      <description></description> 
    </listEntry> 
 </content>
