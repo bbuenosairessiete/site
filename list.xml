@@ -2,6 +2,10 @@
 <content type="regex">  
     <listEntry> 
       <entry>*google*</entry> 
-      <description></description> 
+      <description>Prueba dominio 1</description> 
+   </listEntry>
+     <listEntry> 
+      <entry>*msn*</entry> 
+      <description>Prueba dominio 2</description> 
    </listEntry> 
 </content>
